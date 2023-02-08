@@ -1,0 +1,477 @@
+____________________________________________
+Project 1 for CS 341
+Section number: 003 
+Semester: Spring 2023 
+Written by: Vashu Patel 
+Instructor: Marvin Nakayama
+____________________________________________
+Do you want to enter a string? (y/n): 
+Please enter the string to process: f8o9o@ab32cdef.edu
+ : Q0 (Start)
+f: Q1
+8: Q1
+o: Q1
+9: Q1
+o: Q1
+@: Q2
+a: Q3
+b: Q3
+3: Q3
+2: Q3
+c: Q3
+d: Q3
+e: Q3
+f: Q3
+.: Q4
+e: Q5
+d: Q6
+u: Q7
+f8o9o@ab32cdef.edu is valid
+----------------------------------
+Do you want to enter a string? (y/n): 
+Please enter the string to process: z@e.edu
+ : Q0 (Start)
+z: Q1
+@: Q2
+e: Q3
+.: Q4
+e: Q5
+d: Q6
+u: Q7
+z@e.edu is valid
+----------------------------------
+Do you want to enter a string? (y/n): 
+Please enter the string to process: ba@ba.ed
+ : Q0 (Start)
+b: Q1
+a: Q1
+@: Q2
+b: Q3
+a: Q3
+.: Q4
+e: Q5
+d: Q6
+ba@ba.ed is not valid
+----------------------------------
+Do you want to enter a string? (y/n): 
+Please enter the string to process: edfg@.edu
+ : Q0 (Start)
+e: Q1
+d: Q1
+f: Q1
+g: Q1
+@: Q2
+.: QTRAP
+e: QTRAP
+d: QTRAP
+u: QTRAP
+edfg@.edu is not valid
+----------------------------------
+Do you want to enter a string? (y/n): 
+Please enter the string to process: web2web.a.c97c.edu@j.k68c42.educate.edu
+ : Q0 (Start)
+w: Q1
+e: Q1
+b: Q1
+2: Q1
+w: Q1
+e: Q1
+b: Q1
+.: Q8
+a: Q9
+.: Q1
+c: Q1
+9: Q1
+7: Q1
+c: Q1
+.: Q8
+e: Q9
+d: Q9
+u: Q9
+@: Q2
+j: Q3
+.: Q4
+k: Q10
+6: Q10
+8: Q10
+c: Q10
+4: Q10
+2: Q10
+.: Q4
+e: Q5
+d: Q6
+u: Q7
+c: Q10
+a: Q10
+t: Q10
+e: Q10
+.: Q4
+e: Q5
+d: Q6
+u: Q7
+web2web.a.c97c.edu@j.k68c42.educate.edu is valid
+----------------------------------
+Do you want to enter a string? (y/n): 
+Please enter the string to process: fo8o@goo2.edu..edu
+ : Q0 (Start)
+f: Q1
+o: Q1
+8: Q1
+o: Q1
+@: Q2
+g: Q3
+o: Q3
+o: Q3
+2: Q3
+.: Q4
+e: Q5
+d: Q6
+u: Q7
+.: Q4
+.: QTRAP
+e: QTRAP
+d: QTRAP
+u: QTRAP
+fo8o@goo2.edu..edu is not valid
+----------------------------------
+Do you want to enter a string? (y/n): 
+Please enter the string to process: ab67qe.@boom.edu
+ : Q0 (Start)
+a: Q1
+b: Q1
+6: Q1
+7: Q1
+q: Q1
+e: Q1
+.: Q8
+@: QTRAP
+b: QTRAP
+o: QTRAP
+o: QTRAP
+m: QTRAP
+.: QTRAP
+e: QTRAP
+d: QTRAP
+u: QTRAP
+ab67qe.@boom.edu is not valid
+----------------------------------
+Do you want to enter a string? (y/n): 
+Please enter the string to process: edu2c@computer56.educate
+ : Q0 (Start)
+e: Q1
+d: Q1
+u: Q1
+2: Q1
+c: Q1
+@: Q2
+c: Q3
+o: Q3
+m: Q3
+p: Q3
+u: Q3
+t: Q3
+e: Q3
+r: Q3
+5: Q3
+6: Q3
+.: Q4
+e: Q5
+d: Q6
+u: Q7
+c: Q10
+a: Q10
+t: Q10
+e: Q10
+edu2c@computer56.educate is not valid
+----------------------------------
+Do you want to enter a string? (y/n): 
+Please enter the string to process: redblue@green..edu
+ : Q0 (Start)
+r: Q1
+e: Q1
+d: Q1
+b: Q1
+l: Q1
+u: Q1
+e: Q1
+@: Q2
+g: Q3
+r: Q3
+e: Q3
+e: Q3
+n: Q3
+.: Q4
+.: QTRAP
+e: QTRAP
+d: QTRAP
+u: QTRAP
+redblue@green..edu is not valid
+----------------------------------
+Do you want to enter a string? (y/n): 
+Please enter the string to process: random6@edu
+ : Q0 (Start)
+r: Q1
+a: Q1
+n: Q1
+d: Q1
+o: Q1
+m: Q1
+6: Q1
+@: Q2
+e: Q3
+d: Q3
+u: Q3
+random6@edu is not valid
+----------------------------------
+Do you want to enter a string? (y/n): 
+Please enter the string to process: p654aa7e@a896.edu.edu
+ : Q0 (Start)
+p: Q1
+6: Q1
+5: Q1
+4: Q1
+a: Q1
+a: Q1
+7: Q1
+e: Q1
+@: Q2
+a: Q3
+8: Q3
+9: Q3
+6: Q3
+.: Q4
+e: Q5
+d: Q6
+u: Q7
+.: Q4
+e: Q5
+d: Q6
+u: Q7
+p654aa7e@a896.edu.edu is valid
+----------------------------------
+Do you want to enter a string? (y/n): 
+Please enter the string to process: www@a89.edu.educ
+ : Q0 (Start)
+w: Q1
+w: Q1
+w: Q1
+@: Q2
+a: Q3
+8: Q3
+9: Q3
+.: Q4
+e: Q5
+d: Q6
+u: Q7
+.: Q4
+e: Q5
+d: Q6
+u: Q7
+c: Q10
+www@a89.edu.educ is not valid
+----------------------------------
+Do you want to enter a string? (y/n): 
+Please enter the string to process: wwwb@bb91a.edu.ed
+ : Q0 (Start)
+w: Q1
+w: Q1
+w: Q1
+b: Q1
+@: Q2
+b: Q3
+b: Q3
+9: Q3
+1: Q3
+a: Q3
+.: Q4
+e: Q5
+d: Q6
+u: Q7
+.: Q4
+e: Q5
+d: Q6
+wwwb@bb91a.edu.ed is not valid
+----------------------------------
+Do you want to enter a string? (y/n): 
+Please enter the string to process: 34big.edu@bbdef29.edu
+ : Q0 (Start)
+3: QTRAP
+4: QTRAP
+b: QTRAP
+i: QTRAP
+g: QTRAP
+.: QTRAP
+e: QTRAP
+d: QTRAP
+u: QTRAP
+@: QTRAP
+b: QTRAP
+b: QTRAP
+d: QTRAP
+e: QTRAP
+f: QTRAP
+2: QTRAP
+9: QTRAP
+.: QTRAP
+e: QTRAP
+d: QTRAP
+u: QTRAP
+34big.edu@bbdef29.edu is not valid
+----------------------------------
+Do you want to enter a string? (y/n): 
+Please enter the string to process: food@for.edu@
+ : Q0 (Start)
+f: Q1
+o: Q1
+o: Q1
+d: Q1
+@: Q2
+f: Q3
+o: Q3
+r: Q3
+.: Q4
+e: Q5
+d: Q6
+u: Q7
+@: Q10
+food@for.edu@ is not valid
+----------------------------------
+Do you want to enter a string? (y/n): 
+Please enter the string to process: net.a.b.4c@comma3.edu.edu
+ : Q0 (Start)
+n: Q1
+e: Q1
+t: Q1
+.: Q8
+a: Q9
+.: Q1
+b: Q1
+.: Q8
+4: QTRAP
+c: QTRAP
+@: QTRAP
+c: QTRAP
+o: QTRAP
+m: QTRAP
+m: QTRAP
+a: QTRAP
+3: QTRAP
+.: QTRAP
+e: QTRAP
+d: QTRAP
+u: QTRAP
+.: QTRAP
+e: QTRAP
+d: QTRAP
+u: QTRAP
+net.a.b.4c@comma3.edu.edu is not valid
+----------------------------------
+Do you want to enter a string? (y/n): 
+Please enter the string to process: net84work.abb@common.6edu.edu
+ : Q0 (Start)
+n: Q1
+e: Q1
+t: Q1
+8: Q1
+4: Q1
+w: Q1
+o: Q1
+r: Q1
+k: Q1
+.: Q8
+a: Q9
+b: Q9
+b: Q9
+@: Q2
+c: Q3
+o: Q3
+m: Q3
+m: Q3
+o: Q3
+n: Q3
+.: Q4
+6: QTRAP
+e: QTRAP
+d: QTRAP
+u: QTRAP
+.: QTRAP
+e: QTRAP
+d: QTRAP
+u: QTRAP
+net84work.abb@common.6edu.edu is not valid
+----------------------------------
+Do you want to enter a string? (y/n): 
+Please enter the string to process: @abcde.edu
+ : Q0 (Start)
+@: QTRAP
+a: QTRAP
+b: QTRAP
+c: QTRAP
+d: QTRAP
+e: QTRAP
+.: QTRAP
+e: QTRAP
+d: QTRAP
+u: QTRAP
+@abcde.edu is not valid
+----------------------------------
+Do you want to enter a string? (y/n): 
+Please enter the string to process: people5.d7og.c8at@c.edu3.edu
+ : Q0 (Start)
+p: Q1
+e: Q1
+o: Q1
+p: Q1
+l: Q1
+e: Q1
+5: Q1
+.: Q8
+d: Q9
+7: Q9
+o: Q9
+g: Q9
+.: Q1
+c: Q1
+8: Q1
+a: Q1
+t: Q1
+@: Q2
+c: Q3
+.: Q4
+e: Q5
+d: Q6
+u: Q7
+3: Q10
+.: Q4
+e: Q5
+d: Q6
+u: Q7
+people5.d7og.c8at@c.edu3.edu is valid
+----------------------------------
+Do you want to enter a string? (y/n): 
+Please enter the string to process: cable..cord@fort.edu
+ : Q0 (Start)
+c: Q1
+a: Q1
+b: Q1
+l: Q1
+e: Q1
+.: Q8
+.: QTRAP
+c: QTRAP
+o: QTRAP
+r: QTRAP
+d: QTRAP
+@: QTRAP
+f: QTRAP
+o: QTRAP
+r: QTRAP
+t: QTRAP
+.: QTRAP
+e: QTRAP
+d: QTRAP
+u: QTRAP
+cable..cord@fort.edu is not valid
+----------------------------------
+Do you want to enter a string? (y/n): 
+Quitting, goodbye!
