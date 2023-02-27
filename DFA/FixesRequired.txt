@@ -1,0 +1,7 @@
+By the Project Grader, the following changes are required/recommended to the DFA MODEL/Overall Project:
+
+1. No trap states are required to be drawn.
+2. Redundant States: Q8, Q9 aren't necessary if Q1 went back to Q0 and Q10 also redundant.
+3. Q10 shouldn't loop on Σ u Y.
+
+--------------------------------------------------------------------------------------------------------------
